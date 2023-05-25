@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 30%;
+    margin: 1rem 0 1rem 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    border-radius: 50px;
+    height: 90px;
+    width: 90px;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    background: none;
+    top: 0;
+    z-index: 100;
+}
+.nav-list{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    display: flex;
+}
+.nav-list li a{
+    width: 15%;
+    color: #fff;
+    margin-left:  4.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    color :orange;
+    text-decoration: underline;
+}
+.content{
+    height: 88vh;
+    display: flex;
+}
+.main-box{
+    max-width: 65%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    width: 40%;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 7rem;
+}
+.left{
+    width: 70%;
+}
+.background{
+    background: rgba(0, 0, 0, 0.5) url(images/backg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+.para{
+    margin: 1rem 0 0 10rem;
+    align-items: center;
+}
+.h2{
+    padding: 2rem 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.under{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.butt button{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    background-color: orange;
+    height: 3rem;
+    width: 8rem;
+}
+
+/* start  */
+
+.about{
+    height: auto;
+}
+.container{
+    margin: 4rem 0;
+    display: flex;
+    height: 100vh;
+}
+.first{
+    height: 100%;
+    width: 28%;
+    margin: auto;
+    background-color:#F6f4f1 ;
+}
+.first img{
+    height: auto;
+    width: 100%;
+}
+.lower{
+    color: black;
+    font-size: 1.4rem;
+    padding: 1rem 2rem 0 2rem;
+}
+.upper{
+    color:orange;
+    font-size: 3rem;
+    padding: 0 0 0 2rem;
+}
+.read-more{
+    cursor: pointer;
+    color: orange;
+    padding: 1.5rem 0 0 2rem;
+}
+.batt{
+    width: 18%;
+    margin: auto;
+}
+#library{
+    margin-bottom: 4rem;
+    border-radius: 50px;
+    height: 3.2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 21rem;
+    border: none;
+    background-color: orange;
+}
+.container2{
+    margin: 5rem 0;
+    display: flex;
+    height: 60vh;
+}
+.second2{
+    background-color: #F6f4f1;
+    height: 100%;
+    width: 28%;
+    margin: auto;
+}
+.pic{
+    height: auto;
+    width: 40%;
+    margin: auto;
+}
+.pic img{
+    margin-top: 2rem;
+    border-radius: 150px;
+}
+.lower1{
+    color: black;
+    font-size: 1.4rem;
+    padding: 1rem 2rem 0 2rem;
+}
+.con-pic{
+    /* padding-top: 5rem; */
+    background: rgba(0, 0, 0, 0.5) url(images/children.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 70vh;
+    width: 94%;
+    margin:4rem auto;
+}
+.upper1{
+    text-align: center;
+    color:orange;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.nobe{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding: 18rem 0;
+}
+.container0{
+    width: 94%;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rigt{
+    height: auto;
+    width: 70%;
+}
+.rigt img{
+    height: 100%;
+    width: 100%;
+}
+.title{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* footer  */
+
+footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    padding-left: 30rem;
+    padding-right: 20rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-col{
+    width: 30%;
+    padding: 0 15px;
+}
+.container50{
+    max-width: 1170;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.footer ul li:not(:last-child) {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.footer-col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    color: #bbbbbb;
+    font-weight: 300;
+    transition: all 0.2s ease;
+}
+.footer-col ul li a:hover{
+    padding-left: 15px;
+    color: orange;
+    font-size: 25px;
+}
+h4{
+    color: white;
+    font-size: 25px;
+    font-style: bold;
+}
+.socialinks4 a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(225,225,225,0.2);
+    margin: 20px 10px 10px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: white;
+}
+.socialinks4 a:hover{
+    color: #24262b;
+    background-color: orange;
+}
+
+/* about  */
+
+
+.about-main{
+    background-color:#F8f9f5;
+    height: auto;
+    width: 100%;    
+}
+.main-box1{
+    padding-top: 8rem;
+    width: 70%;
+    margin: auto;
+    height: 95%;
+}
+.sort{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+}
+#r{
+    width: 33%;
+    height: auto;
+    margin: auto;
+}
+.nobe{
+    font-size: 2rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+.nober{
+    font-size: 2rem;
+    margin-top: 6rem;
+    margin-right: 4rem;
+}
+.nobe1{
+    font-size: 2rem;
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+#r img{
+    text-align:center;
+    width: 100%;
+    height: auto;
+}
+.l{
+    background-color: #fff;
+    width: 60%;
+    height: 29vh;
+    margin: auto;
+}
+.tp{
+    font-size: 1.22rem;
+    padding: 1rem 4rem;
+}
+.htt{
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    color: orange;
+    font-size: 1.9rem;
+    font-weight: 620;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+#s1{
+    margin-top: 5rem;
+}
+#s2{
+    margin-top: 5rem;
+}
+#s3{
+    margin-top: 5rem;
+}
+#s4{
+    margin-top: 2rem;
+}
+#s5{
+    height: 20vh;
+    width: 80%;
+}
+.l2{
+    background-color: #fff;
+    width: 60%;
+    height: 36vh;
+    margin: auto ;
+}
+.l3{
+    background-color: #fff;
+    width: 60%;
+    height: 36vh;
+    margin: auto ;
+}
+.l4{
+    background-color: #fff;
+    width: 60%;
+    height: 46vh;
+    margin: auto;
+}
+.l5{
+    background-color: #fff;
+    width: 60%;
+    height: 20vh;
+    margin: auto;
+}
+.l6{
+    background-color: #fff;
+    width: 100%;
+    height: 15vh;
+    margin: 2rem auto;
+}
+
+/* about  */
+
+
+/* services  */
+
+.left{
+    width: 51%;
+}
+.h2{
+    padding: 2rem 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.under{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.txt_p{
+    padding: 4rem 0; 
+    text-align: center;
+}
+.upper{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.main-part{
+    width: 100%;
+    height: 100vh;
+}
+.container7{
+    width: 60%;
+    height: 48%;
+    display: flex;
+    margin: auto;
+}
+/* .sect{
+    width: 100%;
+    height: 96%;
+    margin: auto;
+
+} */
+.out{
+    background-color: #fff;
+    width: 32%;
+    height: 96%;
+    margin: auto;
+}
+h2{
+    padding: 1rem 2rem 0 2rem;
+}
+.image_section{
+    height: auto;
+    width: 80px;
+    margin: 1.5rem 0 0 2rem;
+}
+.image_section img{
+    height: 100%;
+    width: 100%;
+}
+.text_part{
+    font-size: 1.1rem;
+    padding: 1rem 1rem 1rem 2rem;
+}
+.sevis{
+    background-color: #F8f9f5;
+}
+
+
+.company{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    padding: 0 5rem;
+    margin: 3rem 0;
+    /* overflow: hidden; */
+}
+.big-text4{
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.logo_t{
+    padding: 5rem;
+    height: 50vh;
+    width: 50vh;
+} 
+.logo_t img{
+    height: 28vh;
+    width: 40vh;
+    border: solid gray;
+    background-color: #ffdf00;
+}
+h3{
+    font-size: 1.8rem;
+    text-align: center;
+    color: orange;
+}
+
+/* services  */
+
+/* contact  */
+
+.h2{
+    padding: 2rem 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.under{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.txt_p{
+    padding: 4rem 0; 
+    text-align: center;
+}
+.contact{
+    width: 100%;
+    height: 53vh;
+}
+.container6{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 40vh;
+}
+.fsst{
+    text-align: center;
+    width: 31%;
+    height: 90%;
+    margin: auto;
+    background-color:#F8f9f7;
+}
+/* .fsst :hover{
+    color: #fff;
+    background-color:black;
+} */
+.txt_p{
+    padding: 4rem 0; 
+    text-align: center;
+
+}
+.upper{
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Dancing Script', cursive;
+}
+.ig_side{
+    width: 80px;
+    height: auto;
+    margin: 2rem auto;
+}
+.ig_side img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.vl {
+    margin-top: 8px;
+    border-left: 6px solid orange;
+    height: 96%;
+}
+.c{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.c2{
+    font-size: 1.2rem;
+    padding: 1rem 5rem ;
+    font-weight: 500;
+}
+.map{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+}
+iframe{
+    width: 100%;
+    height: 98%;
+}
+.container45{
+    width: 98%;
+    height: 100vh;
+    margin: 5rem auto;
+    display: flex;
+}
+.num_02{
+    width: 70%;
+    margin: auto; 
+}
+.upper_section{
+    text-align: center;
+    height: 25%;
+    width: auto;
+}
+
+/* contact  */
+
+/* report  */
+
+
+.main-box{
+    max-width: 95%;
+    margin: auto 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    margin: 1rem 0 0 10rem;
+    align-items: center;
+}
+.h2{
+    padding: 2rem 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.under{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.left{
+    width: 51%;
+}
+.h2{
+    padding: 2rem 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.under{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.txt_p{
+    padding: 4rem 0; 
+    text-align: center;
+
+}
+.upper{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+.container45{
+    width: 98%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+.num_02{
+    width: 70%;
+    margin: auto; 
+}
+.upper_section{
+    text-align: center;
+    height: 25%;
+    width: auto;
+}
+.lower_section{
+    height: 75%;
+    width: auto;
+}
+.next-text3{
+    padding:  2rem 0 0 2rem;
+    align-items: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.next-text2{
+    margin:  1rem 0 0 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.two-form{
+    display: flex;
+}
+.name{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    outline: none;
+    box-shadow: #ffdf00;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    height: 3.5rem;
+    padding-left: 2rem;
+    width: 45%;
+}
+.contactus-input{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    outline:none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    padding:  2rem;
+    height: 20rem;
+    padding-left: 2rem;
+    width: 93.5%;
+}
+#button{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    height: 3.5rem;
+    width: 13rem;
+    border: none;
+    padding: 5px;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 30px;
+}
+.uppernot{
+    background: rgba(0, 0, 0, 0.5) url(images/happy.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 60vh;
+    width: 80%;
+    margin: auto;
+}
+#tttlt{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding: 14rem 0;
+}
+.final{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+}
+.head{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.up{
+    margin: 3.54rem 0;
+}
+.down{
+    margin-top: 4rem;
+    height: 80%;
+    width: 70%;
+    margin: auto;
+    background-color: #F8f9f7;}
+.mg{
+    height: 30vh;
+    width: auto;
+    text-align: center;
+    /* padding-top: 3rem; */
+}
+.mg img{
+    height: auto;
+    width: 30%;
+    border-radius: 150px;
+}
+.gold{
+    font-size: 2rem;
+    text-align: center;
+    color: orange;
+    margin-top: 2rem;
+}
+.tezt{
+    font-size: 1.4rem;
+    padding: 3rem;
+    color: black;
+}
+
+/* report  */
